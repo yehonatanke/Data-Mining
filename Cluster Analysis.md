@@ -25,7 +25,7 @@
 
 ### Distance Functions:
 
-- **Euclidean Distance**:
+- **Euclidean Distance (K-means)**:
   - Description: Measures the straight-line distance between two points in Euclidean space.
   - Formula: $\sqrt{\sum (x_i - y_i)^2}$
 
