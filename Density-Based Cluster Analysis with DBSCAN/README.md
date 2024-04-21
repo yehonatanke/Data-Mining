@@ -27,13 +27,13 @@ The algorithm proceeds as follows:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com//density-based-cluster-analysis.git
+   git clone https://github.com/yehonatanke/Data-Mining/tree/main/Density-Based%20Cluster%20Analysis%20with%20DBSCAN
     ```
 2. Navigate to the project directory:
 
    ```bash
-   cd density-based-cluster-analysis
-
+   cd Density-Based Cluster Analysis with DBSCAN/DBSCAN
+   ```
 3. Run the `main.py` script:
 
    ```bash
@@ -48,16 +48,15 @@ The algorithm proceeds as follows:
 6. View the scatter plot visualizations of the original data and clustered data.
 
 
-## Example
+## Output Example
 
-![Original Data](images/original_data.png)
+![Original Data](https://github.com/yehonatanke/Data-Mining/blob/main/Density-Based%20Cluster%20Analysis%20with%20DBSCAN/output/before.jpeg)
 *Figure 1: Scatter plot of original data*
 
-![Clustered Data](images/clustered_data.png)
+![Clustered Data](https://github.com/yehonatanke/Data-Mining/blob/main/Density-Based%20Cluster%20Analysis%20with%20DBSCAN/output/after.jpeg)
 *Figure 2: Scatter plot of clustered data*
-
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
