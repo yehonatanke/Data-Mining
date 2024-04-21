@@ -28,9 +28,10 @@ These rules help businesses and researchers identify patterns, make predictions,
 - **Lift**: $l = \frac{c}{\text{Support of consequent}}$
 - **Support ($A \rightarrow B$)**: $P(A \cup B)$
   - Example: If $P(milk \cup bread) = 0.2$, it means 20% of transactions contain both milk and bread.
+- **Confidence ($A \rightarrow B$)**: $\frac{Support(A \cup B)}{Support(A)}$
 - **Confidence ($A \rightarrow B$)**: $P(B | A)$
   - Example: If $P(butter \$| \$milk \ and \ bread) = 0.5$, it means 50% of transactions containing milk and bread also contain butter.
-- **Association Rule Formula**: $P(X|Y)=P(X \cap Y)=\frac{Support(X \cup Y)}{Support(X)}$
+- **Association Rule Formula**: $P(A|B)=P(A \cap B)=\frac{Support(A \cup B)}{Support(A)}$
   - Example: Given: $Support(\text{milk} \cup \text{bread}) = 0.2 , Support(\text{milk}) = 0.4$.
      <br> Therefore: 
     $P(\text{bread} | \text{milk}) = \frac{Support(\text{milk} \cup \text{bread})}{Support(\text{milk})} = \frac{0.2}{0.4} = 0.5\$   <br> This means that 50% of the transactions containing milk also contain bread.
