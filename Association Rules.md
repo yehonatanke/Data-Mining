@@ -26,6 +26,10 @@ These rules help businesses and researchers identify patterns, make predictions,
 - **Confidence**: $c = \frac{\text{Support of antecedent and consequent}}{\text{Support of antecedent}}$
   - Example: If the support of {milk, bread, butter} is 0.1 and the support of {milk, bread} is 0.2, confidence = $\frac{0.1}{0.2} = 0.5$.
 - **Lift**: $l = \frac{c}{\text{Support of consequent}}$
+- **Support ($A \rightarrow B$)**: $P(A \cup B)$
+  - Example: If $P(milk \cup bread) = 0.2$, it means 20% of transactions contain both milk and bread.
+- **Confidence ($A \rightarrow B$)**: $P(B | A)$
+  - Example: If $P(butter \$| \$milk \ and \ bread) = 0.5$, it means 50% of transactions containing milk and bread also contain butter.
 
 ### Steps:
 1. **Generate Candidate Itemsets**: Begin with frequent single items and generate candidate itemsets of increasing size.
