@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://img.shields.io/badge/language-Python-%233776AB.svg?logo=python">
+  <img src="https://img.shields.io/badge/uses-Density%20Based%20Clustering-%232A2F3D.svg">
+  <img src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law">
+</div>
+
 # Density-Based Cluster Analysis with DBSCAN
 
 This Python program performs density-based cluster analysis using the DBSCAN algorithm. It allows users to input their own data or use sample data provided within the program. The program provides visualizations of the original data and the clustered data using scatter plots.
