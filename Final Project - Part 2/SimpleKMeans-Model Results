@@ -1,0 +1,103 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 1 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 3 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     modified_data
+Instances:    9172
+Attributes:   22
+              age
+              sex
+              on_thyroxine
+              query_on_thyroxine
+              on_antithyroid_medication
+              sick
+              pregnant
+              thyroid_surgery
+              I131_treatment
+              query_hypothyroid
+              query_hyperthyroid
+              lithium
+              goitre
+              tumor
+              hypopituitary
+              psych
+              TSH
+              T3
+              TT4
+              T4U
+              FTI
+Ignored:
+              diagnosis
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 4
+Within cluster sum of squared errors: 5948.7235822590665
+
+Initial starting points (k-means++):
+
+Cluster 0: 23,F,t,f,f,f,f,f,f,f,f,f,f,f,f,f,42,1.970629,99,1.08,92
+Cluster 1: 70,F,f,f,f,f,f,f,f,f,f,f,f,f,f,f,0.34,2.5,163,1.11,148
+Cluster 2: 44,F,f,f,f,f,f,f,f,t,t,f,f,f,f,f,4.4,1.9,82,0.9,90
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                         Cluster#
+Attribute                    Full Data          0          1          2
+                              (9172.0)   (1213.0)   (7344.0)    (615.0)
+=======================================================================
+age                             52.101    52.7461    52.3126    48.3008
+sex                                  F          F          F          F
+on_thyroxine                         f          t          f          f
+query_on_thyroxine                   f          f          f          f
+on_antithyroid_medication            f          f          f          f
+sick                                 f          f          f          f
+pregnant                             f          f          f          f
+thyroid_surgery                      f          f          f          f
+I131_treatment                       f          f          f          f
+query_hypothyroid                    f          f          f          f
+query_hyperthyroid                   f          f          f          t
+lithium                              f          f          f          f
+goitre                               f          f          f          f
+tumor                                f          f          f          f
+hypopituitary                        f          f          f          f
+psych                                f          f          f          f
+TSH                             5.2184     5.8504     5.2453     3.6503
+T3                              1.9706     1.9672     1.9336     2.4201
+TT4                           108.7003    128.101   104.4525   121.1597
+T4U                             0.9761     0.9993     0.9689     1.0153
+FTI                           113.6407   129.2913   110.3053   122.6026
+
+
+
+
+Time taken to build model (full training data) : 0.04 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      1213 ( 13%)
+1      7344 ( 80%)
+2       615 (  7%)
+
+
+Class attribute: diagnosis
+Classes to Clusters:
+
+    0    1    2  <-- assigned to cluster
+  946 6559  486 | Healthy
+  152  598   46 | Hypothyroid
+  115  187   83 | Hyperthyroid
+
+Cluster 0 <-- Hypothyroid
+Cluster 1 <-- Healthy
+Cluster 2 <-- Hyperthyroid
+
+Incorrectly clustered instances :	2378.0	 25.9267 %
+
