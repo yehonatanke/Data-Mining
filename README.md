@@ -3,7 +3,7 @@ My work in the course Data Mining.
 
 ## Course Overview
 
-This course covers advanced topics in data mining and machine learning, including various clustering techniques, classification methods, decision trees, and neural networks. It combines theoretical concepts with practical implementations and culminates in a two-part final project.
+This course covers advanced topics in data mining and machine learning, including various clustering techniques, classification methods, decision trees, and neural networks. It combines theoretical concepts with practical implementations and culminates in a two-part final project. <br> <br>A significant portion of the work in this repository goes beyond the basic course requirements.
 
 ## Repository Structure
 
@@ -36,8 +36,8 @@ The course culminates in a comprehensive final project divided into two parts:
 |-----------|-------------|
 | Exercise 11 | 100% |
 | Exercise 12 | 100% |
-| Final Project 01 | 100% |
-| Final Project 02 |  |
+| Final Project Part 1 | 100% |
+| Final Project Part 2 |  |
 
 ## Key Topics
 
@@ -48,4 +48,13 @@ The course culminates in a comprehensive final project divided into two parts:
 - Entropy and Information Gain in Data Mining
 - CART Algorithm
 - Practical applications using scikit-learn
+
+# Note
+The repository parts that goes beyond the basic course requirements includes:
+
+- In-depth explorations of advanced topics not covered in the standard curriculum
+- Additional implementations and case studies of various algorithms
+- Extended research on cutting-edge techniques in data mining and machine learning
+- Comprehensive documentation and explanations that exceed typical assignment expectations
+- Algorithm code implementations for topics studied in the course.
 
