@@ -8,26 +8,27 @@ This course covers advanced topics in data mining and machine learning, includin
 ## Repository Structure
 
 ### Topics and Algorithms
-- `Advanced Topics/`: Additional advanced concepts in data mining
-- `Data Mining - Entropy and Information Gain/`: Materials on information theory in data mining
-- `Density-Based Cluster Analysis with DBSCAN/`: Implementation and explanation of DBSCAN algorithm
-- `Density-Based Cluster Analysis with STING/`: Implementation and explanation of STING algorithm
-- `skitipy use for Decision Tree/`: Decision tree implementation using scikit-learn
+- [`Advanced Topics/`](./Advanced%20Topics): Additional advanced concepts in data mining
+- [`Data Mining - Entropy and Information Gain/`](./Data%20Mining%20-%20Entropy%20and%20Information%20Gain): Materials on information theory in data mining
+- [`Density-Based Cluster Analysis with DBSCAN/`](./Density-Based%20Cluster%20Analysis%20with%20DBSCAN): Implementation and explanation of DBSCAN algorithm
+- [`Density-Based Cluster Analysis with STING/`](./Density-Based%20Cluster%20Analysis%20with%20STING): Implementation and explanation of STING algorithm
+- [`skitipy use for Decision Tree/`](./skitipy%20use%20for%20Decision%20Tree): Decision tree implementation using scikit-learn
 
-### Exercises and Projects
-- `Ex12/`
-- `assignments/`
+### Exercises
+- [`Ex12/`](./Ex12)
+- [`assignments/`](./assignments)
 
 ### Final Project
 The course culminates in a comprehensive final project divided into two parts:
-- `Final Project/`: Part 1 of the final project
-- `Final Project - Part 2/`: Part 2 of the final project
+- [`Final Project/`](./Final%20Project): Materials for Part 1 of the final project
+- [`Final Project - Part 2/`](./Final%20Project%20-%20Part%202): Materials for Part 2 of the final project
 
 ### Theoretical Concepts
-- `Association Rules.md`: Explanation of association rule mining
-- `Bayes Classification Methods.md`: Overview of Bayesian classification techniques
-- `CART Algorithm.md`: Details on the Classification and Regression Trees algorithm
-- `Cluster Analysis.md`: Comprehensive guide on cluster analysis techniques
+- [`Association Rules.md`](./Association%20Rules.md): Explanation of association rule mining
+- [`Bayes Classification Methods.md`](./Bayes%20Classification%20Methods.md): Overview of Bayesian classification techniques
+- [`CART Algorithm.md`](./CART%20Algorithm.md): Details on the Classification and Regression Trees algorithm
+- [`Cluster Analysis.md`](./Cluster%20Analysis.md): Comprehensive guide on cluster analysis techniques
+
 
 ## Academic Performance
 
